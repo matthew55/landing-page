@@ -1,3 +1,10 @@
+body {
+  /* We will not be using the Google Fonts API due to privacy concerns for the end user:
+  https://www.zylstra.org/blog/2022/01/using-google-fonts-breaches-gdpr/
+  https://github.com/google/fonts/issues/1495 */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 img {
   width: 400px;
 }
