@@ -108,4 +108,26 @@ a {
 
 .reviews {
   background: rgb(40, 40, 50);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.reviews-quote {
+  margin: 0;
+  align-self: center;
+  font-size: 24px;
+}
+
+.reviews-name {
+  font-size: 22px;
+  margin-right: 32px;
+  align-self: flex-end;
 }
