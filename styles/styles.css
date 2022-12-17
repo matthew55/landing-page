@@ -29,9 +29,18 @@ a {
   background-color: rgb(0, 0, 78);
 }
 
-.header {
-  max-height: 500px;
-  padding: 8px;
+@media screen and (min-width: 425px) {
+  .header {
+    max-height: 500px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header {
+    max-height: 1000px;
+    padding: 8px;
+  }
 }
 
 .header-info {
@@ -71,7 +80,7 @@ a {
   }
 }
 
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 1286px) {
   .header-container img {
     width: 100%;
     max-height: 250px;
