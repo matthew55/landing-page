@@ -45,51 +45,6 @@ img {
   background: rgb(0, 0, 78);
 }
 
-.header {
-  padding: 8px;
-}
-
-.header-info {
-  font-size: 22px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-links {
-  display: flex;
-  gap: 16px;
-}
-
-.header-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
-.header-container-title {
-  max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-@media screen and (min-width: 425px) {
-  .header-container-title h1 {
-    margin: 0;
-    font-size: 64px;
-    align-self: center;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .header-container-title h1 {
-    margin: 0;
-    font-size: 32px;
-    align-self: center;
-  }
-}
-
 .contact-button {
   background: rgb(40, 40, 50);
   color: white;
@@ -98,15 +53,76 @@ img {
   padding: 6px;
 }
 
-@media screen and (min-width: 1286px) {
-  .header-container img {
-    max-height: 400px;
+.header {
+  padding: 8px
+}
+
+.header-info {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  width: 64px;;
+}
+
+.header-links {
+  display: flex;
+  gap: 16px;
+}
+
+.welcome {
+  background-color: rgb(0, 0, 78);
+  padding: 8px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+@media screen and (min-width: 425px) {
+  .welcome h1 {
+    margin: 0;
+    font-size: 64px;
   }
 }
 
-@media screen and (max-width: 1286px) {
-  .header-container img {
-    max-height: 350px;
+@media screen and (max-width: 425px) {
+  .welcome h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .welcome-paragraph {
+    margin: 0;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .welcome-paragraph {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+.instrument-row {
+  object-fit: cover;
+  object-position: 50% 35%;
+}
+@media screen and (min-width: 425px) {
+  .instrument-row {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .instrument-row {
+    height: 50vh;
   }
 }
 
@@ -183,6 +199,10 @@ img {
   justify-content: center;
   align-items: center;
   gap: 12px;
+}
+
+.footer-logo {
+  width: 32px;;
 }
 
 .footer a .github {
