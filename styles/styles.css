@@ -12,11 +12,6 @@ body {
   my eyes while I am coding this */
   background: black;
   color: white;
-
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 a {
@@ -48,8 +43,8 @@ img {
 .contact-button {
   background: rgb(40, 40, 50);
   color: white;
-  border-radius: 6px;
   font-size: 16px;
+  border-radius: 6px;
   padding: 6px;
 }
 
@@ -59,8 +54,6 @@ img {
 
 .header-info {
   font-size: 22px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .header-logo {
@@ -68,44 +61,35 @@ img {
 }
 
 .header-links {
-  display: flex;
   gap: 16px;
 }
 
 .welcome {
   background-color: rgb(0, 0, 78);
   padding: 8px;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 8px;
 }
 
 @media screen and (min-width: 425px) {
   .welcome h1 {
-    margin: 0;
     font-size: 64px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .welcome h1 {
-    margin: 0;
     font-size: 28px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .welcome-paragraph {
-    margin: 0;
     font-size: 24px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .welcome-paragraph {
-    margin: 0;
     font-size: 18px;
   }
 }
@@ -114,6 +98,7 @@ img {
   object-fit: cover;
   object-position: 50% 35%;
 }
+
 @media screen and (min-width: 425px) {
   .instrument-row {
     height: 70vh;
@@ -128,15 +113,9 @@ img {
 
 .information {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .information-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   gap: 16px;
 }
 
@@ -158,34 +137,24 @@ img {
 .reviews {
   background: rgb(40, 40, 50);
   padding: 20px;
-  display: flex;
-  justify-content: center;
 }
 
 .reviews-container {
   max-width: 1000px;
-  display: flex;
-  flex-direction: column;
   gap: 2px;
 }
 
 .reviews-quote {
-  margin: 0;
-  align-self: center;
   font-size: 24px;
 }
 
 .reviews-name {
   font-size: 22px;
   margin-right: 32px;
-  align-self: flex-end;
 }
 
 .sign-up {
   padding: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   gap: 8px
 }
 
@@ -195,14 +164,11 @@ img {
 
 .footer {
   padding: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 12px;
 }
 
 .footer-logo {
-  width: 32px;;
+  width: 32px;
 }
 
 .footer a .github {
