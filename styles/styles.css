@@ -151,3 +151,15 @@ img {
   margin-right: 32px;
   align-self: flex-end;
 }
+
+.footer {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer a .github {
+  width: 30px;
+}
