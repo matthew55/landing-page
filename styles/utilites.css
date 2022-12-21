@@ -1,5 +1,25 @@
+.width-32 {
+  width: 32px;
+}
+
 .margin-zero {
   margin: 0;
+}
+
+.padding-eight {
+  padding: 8px
+}
+
+.padding-sixteen {
+  padding: 16px
+}
+
+.gap-eight {
+  gap: 8px;
+}
+
+.gap-sixteen {
+  gap: 16px;
 }
 
 .flex {

@@ -24,19 +24,31 @@ img {
 }
 
 @media screen and (min-width: 425px) {
-  h2 {
+  h1 {
     font-size: 48px;
   }
 }
 
 @media screen and (max-width: 425px) {
-  h2 {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  p {
     font-size: 24px;
   }
 }
 
-.header,
-.footer {
+@media screen and (max-width: 425px) {
+  p {
+    font-size: 18px;
+  }
+}
+
+header,
+footer {
   background: rgb(0, 0, 78);
 }
 
@@ -45,53 +57,18 @@ img {
   color: white;
   font-size: 16px;
   border-radius: 6px;
-  padding: 6px;
-}
-
-.header {
-  padding: 8px
 }
 
 .header-info {
-  font-size: 22px;
+  font-size: 24px;
 }
 
 .header-logo {
-  width: 64px;;
+  width: 64px;
 }
 
-.header-links {
-  gap: 16px;
-}
-
-.welcome {
+.interior-header {
   background-color: rgb(0, 0, 78);
-  padding: 8px;
-  gap: 8px;
-}
-
-@media screen and (min-width: 425px) {
-  .welcome h1 {
-    font-size: 64px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .welcome h1 {
-    font-size: 28px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .welcome-paragraph {
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .welcome-paragraph {
-    font-size: 18px;
-  }
 }
 
 .instrument-row {
@@ -111,14 +88,6 @@ img {
   }
 }
 
-.information {
-  padding: 20px;
-}
-
-.information-container {
-  gap: 16px;
-}
-
 .information-container-card {
   display: flex;
   flex-direction: column;
@@ -136,7 +105,6 @@ img {
 
 .reviews {
   background: rgb(40, 40, 50);
-  padding: 20px;
 }
 
 .reviews-container {
@@ -144,33 +112,10 @@ img {
   gap: 2px;
 }
 
-.reviews-quote {
-  font-size: 24px;
-}
-
 .reviews-name {
-  font-size: 22px;
   margin-right: 32px;
-}
-
-.sign-up {
-  padding: 12px;
-  gap: 8px
 }
 
 .sign-up button {
   width: 50%;
-}
-
-.footer {
-  padding: 8px;
-  gap: 12px;
-}
-
-.footer-logo {
-  width: 32px;
-}
-
-.footer a .github {
-  width: 30px;
 }
